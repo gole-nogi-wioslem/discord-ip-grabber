@@ -1,0 +1,39 @@
+finderka kurwa w batchu wpierdalacie to i elegancko smiga.
+
+:main:
+cd CFGBASE
+@echo. off
+title WYCIEK IP 
+cls
+chcp 65001>nul
+@echo off
+color 2
+echo.
+echo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+echo.
+echo.               
+echo.──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+echo                         Jeśli chcesz ip jakiegos cwela to wklej:(ID DISCORDA/HEX/NAZWA FIVEM/NAZWA MC)
+echo.
+echo ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+goto 2
+:2:
+color 3
+echo. 
+echo                               Gang Miłych Panów X Skruczybyki       
+echo.                                                        
+echo.                                  cwele: Jawor                                                 
+echo.                                                                                                                                                                                          
+echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+goto 3
+:3:
+color 2
+echo.                                        
+set /p Nickname="Nickname/Discord ID/Fivem Nazwa/Nazwa mc/Hex: "
+echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  
+echo Przeszukiwanie Bazy danych:
+echo wyniki:
+findstr "%Nickname%" *.txt *.yml *.sql *.csv
+echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────      
+pause >nul
+goto main
