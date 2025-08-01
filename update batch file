@@ -1,9 +1,8 @@
-finderka kurwa w batchu wpierdalacie to i elegancko smiga.
 
 :main:
 cd CFGBASE
 @echo. off
-title WYCIEK IP 
+title t.me/dream_c22 contact us for more 
 cls
 chcp 65001>nul
 @echo off
@@ -13,26 +12,26 @@ echo.
 echo.
 echo.               
 echo.──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
-echo                         Jeśli chcesz ip jakiegos cwela to wklej:(ID DISCORDA/HEX/NAZWA FIVEM/NAZWA MC)
+echo                 Simply paste ID of the innocent guy that u want to cut off
 echo.
 echo ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
 goto 2
 :2:
 color 3
 echo. 
-echo                               Gang Miłych Panów X Skruczybyki       
+echo                               Dream Network Team       
 echo.                                                        
-echo.                                  cwele: Jawor                                                 
+echo.                            biggest enemies: gov hits                                                
 echo.                                                                                                                                                                                          
 echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 goto 3
 :3:
 color 2
 echo.                                        
-set /p Nickname="Nickname/Discord ID/Fivem Nazwa/Nazwa mc/Hex: "
+set /p Nickname="Nickname/Discord ID/Fivem Name/Nazwa mc/Hex: "
 echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  
-echo Przeszukiwanie Bazy danych:
-echo wyniki:
+echo Searching thru DB:
+echo results:
 findstr "%Nickname%" *.txt *.yml *.sql *.csv
 echo ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────      
 pause >nul
